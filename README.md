@@ -26,6 +26,8 @@ pip install tika
 
 
 # Running the code: 
+Before executing the python file please change the  fileSourcePath,fileDestinationPath,fileStopWord in app.py to the right locations on your local machine.
+
 python app.py
 
 # Solution Specification Document : 
