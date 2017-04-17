@@ -17,7 +17,7 @@ class Fileop:
     def readFile(self,filename):
         text = parser.from_file(filename)
         if text=={}:
-            print "File is not legiable or it may be password protected"
+            print "File is not legible  or it may be password protected"
             return ""
         else:
             sourceData=str(text).lower()
